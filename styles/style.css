@@ -33,7 +33,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #add; 
+    background-color: rgb(238, 243, 248); 
 }
 
 body{
@@ -64,6 +64,12 @@ body{
     color: #FFF;
     font-size: 40px;
 }
+.header-content h1:hover{
+    animation: title-rotate 300ms infinite alternate;
+    cursor: pointer;
+}
+
+
 .header-content ul{
     list-style-type: none;
 }
@@ -77,8 +83,13 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+.header-content ul li a:hover{
+    text-decoration: underline;
+    color: rgb(223, 222, 222);
+    transition: 0.5s ease-in-out;
+}
 .animated-text{
-    animation:rotate 2000ms infinite alternate;
+    animation:rotate 1000ms infinite alternate;
 }
 @keyframes rotate {
     0%{
@@ -87,4 +98,29 @@ body{
     100%{
         transform: rotate(-10deg);
     }
+}
+@keyframes title-rotate {
+    0%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(-10%);
+    }
+}
+.main-content h2{
+    color: #FFF;
+    font-size: 60px;
+    text-align: center;
+}
+.container p{
+    padding: 5px;
+    margin: 10px;
+    text-align: left;
+    text-indent: 20px;
+    word-spacing: 3px;
+    font-size: 18px;
+    line-height: 30px;
+    width: auto;
+    color:#FFF;
+    z-index: 10000;
 }
