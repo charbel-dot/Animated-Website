@@ -123,7 +123,9 @@ body{
 .menu{
     display: none;
 }
-/* ! mobile design */
+
+/* mobile design */ 
+
 @media screen and (max-width:768px){
     body,html{
         width: 100%;
@@ -149,7 +151,7 @@ body{
         display: none;
     }
     .header-content h1{
-        animation: title-rotate 1000ms infinite alternate;
+        animation: title-rotate 200ms infinite alternate;
     }
 }
 @media screen and (max-width:411px) {
