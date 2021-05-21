@@ -1,4 +1,4 @@
-# Animated Webiste Using HTML5 CSS3 JS
+# Animated Website Using HTML5 CSS3 and JS
 
 <img src="/images/squares.png"
      alt="Markdown Monster icon"
