@@ -123,3 +123,14 @@ body{
     width: auto;
     color:#FFF;
 }
+
+/* ! mobile design */
+
+@media screen and (max-width:411px) {
+    .header-content h1{
+        display: none;
+    }
+    .header-content{
+        display: none;
+    }
+}
