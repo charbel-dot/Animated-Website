@@ -149,7 +149,7 @@ body{
         display: none;
     }
     .header-content h1{
-        animation: title-rotate 300ms infinite alternate;
+        animation: title-rotate 1000ms infinite alternate;
     }
 }
 @media screen and (max-width:411px) {
