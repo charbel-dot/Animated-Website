@@ -124,15 +124,26 @@ body{
     display: none;
 }
 
+.login-button{
+    background-color: lightblue;
+    padding: 10px;
+}
 /* mobile design */ 
 
 @media screen and (max-width:768px){
+    .container p{
+        font-size: 20px;
+        text-align: left;
+        height: auto;
+        width: auto;
+    }
     body,html{
         width: 100%;
         height: 100vh;
     }
     body{
-        background-attachment: fixed;
+        background-color: #8778f5;
+        background-image: none;
     }
     .main-content h2{
         display: none;
@@ -151,7 +162,7 @@ body{
         display: none;
     }
     .header-content h1{
-        animation: title-rotate 200ms infinite alternate;
+        animation: title-rotate 400ms infinite alternate;
     }
 }
 @media screen and (max-width:411px) {
@@ -159,7 +170,7 @@ body{
 }
 .menu div{
     background-color: #FFF;
-    width: 50px;
+    width: 40px;
     height: 3px;
     margin: 5px;
     padding: 1px;
