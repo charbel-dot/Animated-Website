@@ -15,4 +15,3 @@ function generate(){
     let number = Math.floor(Math.random () * 10000);
     let random = document.getElementById('random-number').innerHTML = number;
 };
-generate();
