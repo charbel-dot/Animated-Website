@@ -187,3 +187,32 @@ body{
 .menu:hover{
     cursor: pointer;
 }
+.random{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+#random-button{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:rgb(48, 47, 47);
+    color: #FFF;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#random-number{
+    font-size: 23px;
+    background-color: rgb(48, 47, 47);
+    padding: 10px;
+    margin: 10px;
+    color: #FFF;
+    width: auto;
+    text-align: center;
+    border-radius: 20px;
+}
