@@ -15,3 +15,13 @@ function generate(){
     let number = Math.floor(Math.random () * 10000);
     let random = document.getElementById('random-number').innerHTML = number;
 };
+
+const navSlide = () => {
+    const burger = document.querySelector('.menu');
+    const nav = document.querySelector('.list');
+
+    burger.addEventListener('click', () => {
+        nav.classList.toggle('.list-active');
+    });
+}
+navSlide();
