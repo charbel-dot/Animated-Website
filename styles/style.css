@@ -62,7 +62,7 @@ body{
     font-size: 40px;
 }
 .header-content h1:hover{
-    animation: title-rotate 300ms infinite linear;
+    animation: title-rotate 500ms infinite alternate;
     cursor: pointer;
 }
 
