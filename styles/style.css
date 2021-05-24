@@ -194,7 +194,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
+        width: 45%;
         transform: translateX(100%);
         transition: 0.5s ease-in;
     }
@@ -207,6 +207,7 @@ body{
         font-size: 23px;
     }
 }
+
 .list-active{
     transform: translateX(0%);
 }
@@ -298,12 +299,26 @@ body{
     width: 40px;
     height: 4px;
     margin: 5px;
+    transition: all 0.5s;
 }
 
 .menu:hover{
     cursor: pointer;
 }
 
+/* Menu onlick animation */
+
+.toggle .row-1{
+    transform: rotate(-45deg) translate(-6px,6px);
+}
+
+.toggle .row-2{
+    opacity: 0;
+}
+
+.toggle .row-3{
+    transform: rotate(45deg) translate(-6px,-6px);
+}
 .random{
     display: flex;
     flex-direction: column;
