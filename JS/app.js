@@ -18,10 +18,11 @@ function generate(){
 
 const navSlide = () => {
     const burger = document.querySelector('.menu');
-    const nav = document.querySelector('.list');
+    const nav = document.querySelectorAll('.header-content .list');
 
-    burger.addEventListener('click', () => {
-        nav.classList.toggle('.list-active');
+    burger.addEventListener('click', ()=> {
+        nav.classList.toggle('list-active');
     });
 }
+
 navSlide();
