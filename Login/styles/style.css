@@ -132,3 +132,93 @@ nav h2{
 .toggle .row-3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
+/*Styling the login page */
+::placeholder{
+    color: #FFF;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    height: auto;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0px;
+    width: auto;
+    height: auto;
+}
+
+.email,
+.password{
+    border: none;
+    padding: 20px;
+    background-color:#8778f5;
+    border-radius: 30px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    outline: none;
+    font-size:14px;
+    color: #FFF;
+}
+
+.btn-submit{
+    border: none;
+    outline: none;
+    margin: 20px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:#8778f5;
+    color: #fff;
+    font-size: 18;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+}
+
+/*Hover effects starts here*/
+
+.btn-submit:hover{
+    opacity: 0.9;
+    transition: 0.5s ease-in-out;
+}
+.email:focus{
+    width: 330px;
+    transition: 0.5s ease-in-out;
+}
+.password:focus{
+    width: 330px;
+    transition: 0.5s ease-in-out;
+}
+
+.logo-laptop{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #8778f5;
+    border-radius: 10%;
+    cursor:not-allowed;
+}
+.logo-laptop:hover{
+    animation: rotate 1000ms infinite alternate;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0%);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -24,6 +24,18 @@
             <div class="row-3"></div>
         </div>
     </nav>
+    <!--Main content for the login-->
+    <main>
+        <div class="container">
+            <form class="login-form" action="servers/users.php" method="POST" autocomplete="off">
+                <img src="images/laptop-code-solid.svg" alt="laptop-code-solid" class="logo-laptop">
+                <input type="email" name="email" placeholder="Enter Your Email" class="email" required>
+                <input type="password" name="password" placeholder="Enter Your Password" class="password" required>
+                <!--<input type="checkbox" name="checkbox" id="checkbox">-->
+                <button type="submit" class="btn-submit">Log In</button>
+            </form>
+        </div>
+    </main>
     <!--Navigation bar ends here-->
     <script src="JS/app.js"></script>
 </body>
