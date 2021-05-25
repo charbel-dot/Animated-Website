@@ -178,7 +178,7 @@ main{
     width: 100px;
     height: 40px;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 30px 1px;
     background-color:#8778f5;
     color: #fff;
     font-size: 18;
