@@ -50,12 +50,12 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: auto;
+    height: 12vh;
 }
 
 .header-content{
     width: 100%;
-    height: 14vh;
+    height: 18vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
