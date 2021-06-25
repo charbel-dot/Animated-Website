@@ -39,7 +39,7 @@ html{
 
 body{
     /*background-image: url(../images/squares.png);*/
-    background-color: #121212;
+    background-color: red;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
